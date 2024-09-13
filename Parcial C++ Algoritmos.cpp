@@ -12,14 +12,14 @@ void bisiesto(){
         cout<<"Ingrese un anio valido"<<endl;
     }else if(anioIngresado % 100 == 0 && anioIngresado % 400 == 0 && anioIngresado % 4 == 0){
 
-            cout<<"Es un anio bisiesto"<<endl;
+            cout<<anioIngresado<<" es un anio bisiesto."<<endl;
         }else if (anioIngresado % 100 == 0){
 
-            cout<<"NO es un anio bisiesto"<<endl;
+            cout<<anioIngresado<<" NO es un anio bisiesto."<<endl;
             }else if (anioIngresado % 4 == 0){
-                cout<<"Es un anio bisiesto"<<endl;
+                cout<<anioIngresado<<" es un anio bisiesto."<<endl;
                 }else{
-                    cout<<"NO es un anio bisiesto"<<endl;
+                    cout<<anioIngresado<<" NO es un anio bisiesto."<<endl;
                     }
 
 
@@ -38,7 +38,7 @@ void tablaDeMultiplicarInversa(){
     }else{
 
         for(int i=10; i>0;i--){
-            cout<<i * numeroAHacerSuTabla<<endl;
+            cout<<numeroAHacerSuTabla<<" x "<<i<<" = "<< i * numeroAHacerSuTabla<<endl;
 
         }
     }
